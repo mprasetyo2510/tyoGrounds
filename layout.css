@@ -1,0 +1,257 @@
+body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+
+
+
+/* bagian top wrapper */
+
+/* container dari induk top-wrapper*/
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto; 
+}
+
+/* induk dari container bagian atas */
+.top-wrapper {
+    background-image: url(img/top.jpg);
+    padding-top: 80px;
+    padding-bottom: 180px;
+    background-size: cover;
+    color: whitesmoke;
+    text-align: center;
+}
+
+/* Trasnparansi dan font */
+.top-wrapper h1 {
+    opacity: 0.6;
+    font-size: 45px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+}
+
+.top-wrapper p {
+    opacity: 0.9;
+    margin-bottom: 3px;
+}
+
+
+/* untuk bagian Tombol daftar */
+.btn {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.6;
+    border-radius: 5px;
+}
+
+/* untuk kursor pada tombol */
+.btn:hover {
+    opacity: 1;
+}
+
+/* untuk background color pada tombol */
+.signup {
+    background-color: #239b76;
+}
+
+.facebook {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
+
+.gmail {
+    background-color: lightsalmon;
+}
+
+/* Untuk bagian LAYOUT pada TOMBOL */
+.btn-wrapper {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-wrapper p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* untuk class icon pada tombol */
+.fa {
+    margin-right: 5px;
+}
+
+
+/* Bagian Header */ 
+header {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(16, 24, 26, 0.9);
+
+    /* mengatur tampilan scrol */
+    position:fixed;
+    top: 0;
+    z-index: 10;
+}
+/* sementara untuk menggantikan bagian logo */
+.header-left h1 {
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+/*untuk LOGO */
+.header-left {
+    float: left;
+}
+
+/*Untuk Login */
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+    line-height: 70px;
+    padding-left: 25px;
+    padding-right: 25px;
+    color: white;
+    display: block;
+}
+
+
+
+
+/*lesson wrapper */
+.lesson-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+/* Bagian head font */
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+
+/* LOGO PADA lesson */
+/*.logo1 {
+    
+    weight: 100px;
+    height: 200px;
+}
+
+.logo2 {
+    
+    weight: 100px;
+    height: 150px;
+}
+
+.logo3 {
+    
+    weight: 90px;
+    height: 130px;
+}
+
+.logo4 {
+    
+    weight: 120px;
+    height: 199px;
+}
+/* mengatur jarak logo lesson */
+.lesson {
+    float: left;
+    width: 25%;
+}
+
+.lesson-icon {
+    position: relative;
+}
+
+/* mengatur position tag p */
+.lesson-icon p {
+    position: absolute;
+    bottom: 25px;
+    width: 100%;
+    font-weight: bold;
+}
+
+/* mengatur posisi text-content */
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+
+
+/* message-wrapper */
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+/* untuk tombol button masuk */
+.message {
+    background-color: lightgreen;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    cursor: pointer;
+    box-shadow: 4px 7px #1a7940;
+}
+
+/* untuk penanda botton clik */
+.message:active {
+    box-shadow: none;
+    position: relative;
+    top: 7px;
+    left: 4px
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+
+/*footer */
+footer img {
+    width: 70px;
+}
+
+footer p {
+    color: #0c0b0c;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: lightslategrey;
+}
